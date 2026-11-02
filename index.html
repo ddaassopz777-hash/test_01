@@ -117,7 +117,7 @@
             <input 
                 type="text" 
                 id="taskTitle" 
-                value="Скрафтить таблички" 
+                value="text" 
                 placeholder="Введите название..."
                 class="bg-transparent font-semibold text-lg focus:outline-none border-b border-transparent focus:border-notion-accent text-ellipsis overflow-hidden whitespace-nowrap w-full transition-colors duration-200"
                 title="Нажмите, чтобы изменить название"
@@ -196,7 +196,7 @@
 
         // Инициализация данных
         let currentProgress = parseInt(localStorage.getItem(STORAGE_KEY_PROGRESS)) || 0;
-        let savedTitle = localStorage.getItem(STORAGE_KEY_TITLE) || 'Скрафтить таблички';
+        let savedTitle = localStorage.getItem(STORAGE_KEY_TITLE) || 'text';
 
         // Применение загруженных значений
         slider.value = currentProgress;
